@@ -64,4 +64,4 @@ parser.parse
 ###Performance (2_500_000 records in db)
 > OS X 10.8.5 (MacBook Pro 2014), Rails 4.2.1 (ruby 2.2.2), Postgresql 9.4.1
 
-**execution_time:** 10.5 - 12.7 sec, **where db sync took** 3.3 - 5.5 sec (including time to build query)
+**execution_time:** 10.5 - 12.7 sec, **where db sync took** 3.3 - 5.5 sec (including time to build SQL)
