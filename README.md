@@ -1,5 +1,7 @@
 # Instructions:
 
+> parser code in **app/parsers/xml_parser**
+
 ### Install
 ```
 $ git clone https://github.com/Ferial/parser_demo_app.git
