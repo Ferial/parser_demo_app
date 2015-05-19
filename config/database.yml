@@ -1,0 +1,16 @@
+default: &default
+  adapter: postgresql
+  encoding: utf8
+  pool: 5
+
+development:
+  <<: *default
+  database: parser_demo_development
+
+test:
+  <<: *default
+  database: parser_demo_test
+
+production:
+  <<: *default
+  database: parser_demo_production

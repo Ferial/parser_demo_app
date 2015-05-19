@@ -1,0 +1,16 @@
+<items>
+  -- to update
+  <item available="true" id="123">
+    <title>Джемпер</title>
+  </item>
+
+  -- to mark as not available
+  <item available="false" id="124">
+    <title>Платье</title>
+  </item>
+
+  -- new
+  <item available="true" id="125">
+    <title>Футболка</title>
+  </item>
+</items>
