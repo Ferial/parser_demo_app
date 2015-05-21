@@ -41,7 +41,7 @@ module XmlParser
       @not_available_items_partner_item_ids = []
     end
 
-    # parser = Xml::Parser.init(xml_url: 'http://0.0.0.0:8000/items.xml', xml_type: "YaMarket")
+    # parser = XmlParser::Parser.init(xml_url: 'http://0.0.0.0:8000/items.xml', xml_type: "YaMarket")
 
     def parse(args = { save: true })
       start_time = Time.now
