@@ -87,6 +87,8 @@ module XmlParser
     end
 
     def get_partner_record(partner_info = {})
+      partner_info.symbolize_keys!
+
       partner_record = Partner.where(
                          xml_url:  partner_info[:xml_url],
                          xml_type: partner_info[:xml_type]
