@@ -34,7 +34,13 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 
 gem 'pg'
 
+gem 'sidekiq'
+
 gem 'activerecord-import'
+
+gem 'sinatra', require: false
+
+gem 'slim'
 
 group :development do
   gem 'pry-rails'
@@ -42,7 +48,6 @@ end
 
 group :test do
   gem 'webmock'
-  gem 'sinatra'
   gem 'database_cleaner'
 end
 
