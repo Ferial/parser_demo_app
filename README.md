@@ -44,6 +44,9 @@ $ rails console
 existing_partner_info = { xml_url: 'http://0.0.0.0:8000/items.xml', xml_type: "YaMarket" }
 parser = XmlParser::Parser.init(existing_partner_info)
 parser.parse
+
+# to run with sidekiq
+XmlParserWorker.perform_async(existing_partner_info)
 ```
 ### Expected results
 > for existing partner
